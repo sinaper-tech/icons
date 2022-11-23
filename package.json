@@ -1,0 +1,36 @@
+{
+  "name": "@sinaper/icons",
+  "version": "1.0.0",
+  "author": "Danilo Mendes <danilomendes.e@gmail.com>",
+  "homepage": "https://github.com/sinaper-tech/icons#readme",
+  "license": "MIT",
+  "private": false,
+  "main": "./dist/index.js",
+  "module": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "scripts": {
+    "build": "rm -rf dist && tsc",
+    "test": "echo \"No test specified\"",
+    "prepublish": "npm run build"
+  },
+  "dependencies": {
+    "@styled-icons/boxicons-regular": "^10.46.0",
+    "@styled-icons/material-outlined": "^10.46.0",
+    "@styled-icons/material-rounded": "^10.46.0",
+    "styled-components": "^5.3.6"
+  },
+  "devDependencies": {
+    "@types/styled-components": "^5.1.26",
+    "typescript": "^4.9.3"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/sinaper-tech/icons.git"
+  },
+  "bugs": {
+    "url": "https://github.com/sinaper-tech/icons/issues"
+  }
+}
