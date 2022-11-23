@@ -1,6 +1,6 @@
 {
   "name": "@sinaper/icons",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "author": "Danilo Mendes <danilomendes.e@gmail.com>",
   "homepage": "https://github.com/sinaper-tech/icons#readme",
   "license": "MIT",
@@ -11,7 +11,7 @@
   "scripts": {
     "build": "rm -rf dist && tsc",
     "test": "echo \"No test specified\"",
-    "prepublish": "npm run build"
+    "prepublish": "yarn build"
   },
   "dependencies": {
     "@styled-icons/boxicons-regular": "^10.46.0",
